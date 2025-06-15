@@ -2,23 +2,6 @@
 
 A JavaFX-based application for planning public transport routes in Helsinki, featuring real-time journey planning and transit heatmap visualization.
 
-## Application Interface 🖥️
-
-### Main Menu
-
-
-### Main Menu
-![Main Menu](ApplicationDesign/MainMenu.png)
-*The main interface allows users to choose between route planning and heatmap visualization*
-
-### Journey Planning
-![Route Planning](ApplicationDesign/Route.png)
-*Plan your journey with interactive map selection and multiple routing options*
-
-### Heatmap View
-![Heatmap Visualization](ApplicationDesign/Heatmap.png)
-*Visualize transit accessibility across Helsinki with color-coded regions*
-
 ## Features 🌟
 
 ### 1. Journey Planning
