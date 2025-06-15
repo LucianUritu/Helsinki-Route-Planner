@@ -1,0 +1,13 @@
+@startuml
+actor User
+
+User -> GUI: enters startTime, origin,\ndestination. Clicks "Show route"
+GUI -> Engine: JSON request, \n{"type":"ride",\n "...": "...","route":"..."}
+Engine -> RoutingAlgorithm: calculateRoute(JSON);
+RoutingAlgorithm -> Database: make necessary queries
+Database -> RoutingAlgorithm: response
+RoutingAlgorithm -> Engine: return route object
+Engine -> GUI: return route object +\nrelevant data
+GUI -> User: display route + \nrelevant data
+
+@enduml

@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" contentStyleType="text/css"
+     data-diagram-type="SEQUENCE" height="490px" preserveAspectRatio="none"
+     style="width:826px;height:490px;background:#FFFFFF;" version="1.1" viewBox="0 0 826 490" width="826px"
+     zoomAndPan="magnify">
+    <defs/>
+    <g>
+        <g>
+            <title>User</title>
+            <rect fill="#000000" fill-opacity="0.00000" height="328.7266" width="8" x="19.9551" y="81.2969"/>
+            <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="23" x2="23" y1="81.2969"
+                  y2="410.0234"/>
+        </g>
+        <g>
+            <title>GUI</title>
+            <rect fill="#000000" fill-opacity="0.00000" height="328.7266" width="8" x="252.7422" y="81.2969"/>
+            <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="256.1299" x2="256.1299"
+                  y1="81.2969" y2="410.0234"/>
+        </g>
+        <g>
+            <title>Engine</title>
+            <rect fill="#000000" fill-opacity="0.00000" height="328.7266" width="8" x="425.8296" y="81.2969"/>
+            <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="428.8389" x2="428.8389"
+                  y1="81.2969" y2="410.0234"/>
+        </g>
+        <g>
+            <title>RoutingAlgorithm</title>
+            <rect fill="#000000" fill-opacity="0.00000" height="328.7266" width="8" x="593.5024" y="81.2969"/>
+            <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="597.0679" x2="597.0679"
+                  y1="81.2969" y2="410.0234"/>
+        </g>
+        <g>
+            <title>Database</title>
+            <rect fill="#000000" fill-opacity="0.00000" height="328.7266" width="8" x="776.0732" y="81.2969"/>
+            <line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="779.6729" x2="779.6729"
+                  y1="81.2969" y2="410.0234"/>
+        </g>
+        <g class="participant participant-head" data-participant="User">
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="31.9102"
+                  x="5" y="77.9951">User
+            </text>
+            <ellipse cx="23.9551" cy="13.5" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/>
+            <path d="M23.9551,21.5 L23.9551,48.5 M10.9551,29.5 L36.9551,29.5 M23.9551,48.5 L10.9551,63.5 M23.9551,48.5 L36.9551,63.5"
+                  fill="none" style="stroke:#181818;stroke-width:0.5;"/>
+        </g>
+        <g class="participant participant-tail" data-participant="User">
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="31.9102"
+                  x="5" y="422.0186">User
+            </text>
+            <ellipse cx="23.9551" cy="433.8203" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/>
+            <path d="M23.9551,441.8203 L23.9551,468.8203 M10.9551,449.8203 L36.9551,449.8203 M23.9551,468.8203 L10.9551,483.8203 M23.9551,468.8203 L36.9551,483.8203"
+                  fill="none" style="stroke:#181818;stroke-width:0.5;"/>
+        </g>
+        <g class="participant participant-head" data-participant="GUI">
+            <rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+                  width="39.2246" x="237.1299" y="50"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="25.2246"
+                  x="244.1299" y="69.9951">GUI
+            </text>
+        </g>
+        <g class="participant participant-tail" data-participant="GUI">
+            <rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+                  width="39.2246" x="237.1299" y="409.0234"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="25.2246"
+                  x="244.1299" y="429.0186">GUI
+            </text>
+        </g>
+        <g class="participant participant-head" data-participant="Engine">
+            <rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+                  width="61.9814" x="398.8389" y="50"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47.9814"
+                  x="405.8389" y="69.9951">Engine
+            </text>
+        </g>
+        <g class="participant participant-tail" data-participant="Engine">
+            <rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+                  width="61.9814" x="398.8389" y="409.0234"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47.9814"
+                  x="405.8389" y="429.0186">Engine
+            </text>
+        </g>
+        <g class="participant participant-head" data-participant="RoutingAlgorithm">
+            <rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+                  width="136.8691" x="529.0679" y="50"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122.8691"
+                  x="536.0679" y="69.9951">RoutingAlgorithm
+            </text>
+        </g>
+        <g class="participant participant-tail" data-participant="RoutingAlgorithm">
+            <rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+                  width="136.8691" x="529.0679" y="409.0234"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122.8691"
+                  x="536.0679" y="429.0186">RoutingAlgorithm
+            </text>
+        </g>
+        <g class="participant participant-head" data-participant="Database">
+            <rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+                  width="80.8008" x="739.6729" y="50"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66.8008"
+                  x="746.6729" y="69.9951">Database
+            </text>
+        </g>
+        <g class="participant participant-tail" data-participant="Database">
+            <rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+                  width="80.8008" x="739.6729" y="409.0234"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66.8008"
+                  x="746.6729" y="429.0186">Database
+            </text>
+        </g>
+        <g class="message" data-participant-1="User" data-participant-2="GUI">
+            <polygon fill="#181818" points="244.7422,123.5625,254.7422,127.5625,244.7422,131.5625,248.7422,127.5625"
+                     style="stroke:#181818;stroke-width:1;"/>
+            <line style="stroke:#181818;stroke-width:1;" x1="23.9551" x2="250.7422" y1="127.5625" y2="127.5625"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="157.4854"
+                  x="30.9551" y="107.3638">enters startTime, origin,
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="208.7871"
+                  x="30.9551" y="122.4966">destination. Clicks "Show route"
+            </text>
+        </g>
+        <g class="message" data-participant-1="GUI" data-participant-2="Engine">
+            <polygon fill="#181818" points="417.8296,182.9609,427.8296,186.9609,417.8296,190.9609,421.8296,186.9609"
+                     style="stroke:#181818;stroke-width:1;"/>
+            <line style="stroke:#181818;stroke-width:1;" x1="256.7422" x2="423.8296" y1="186.9609" y2="186.9609"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="90.0098"
+                  x="263.7422" y="151.6294">JSON request,
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="94.9482"
+                  x="263.7422" y="166.7622">{"type":"ride",
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="144.9551"
+                  x="267.8745" y="181.895">"...": "...","route":"..."}
+            </text>
+        </g>
+        <g class="message" data-participant-1="Engine" data-participant-2="RoutingAlgorithm">
+            <polygon fill="#181818" points="585.5024,212.0938,595.5024,216.0938,585.5024,220.0938,589.5024,216.0938"
+                     style="stroke:#181818;stroke-width:1;"/>
+            <line style="stroke:#181818;stroke-width:1;" x1="429.8296" x2="591.5024" y1="216.0938" y2="216.0938"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="143.6729"
+                  x="436.8296" y="211.0278">calculateRoute(JSON);
+            </text>
+        </g>
+        <g class="message" data-participant-1="RoutingAlgorithm" data-participant-2="Database">
+            <polygon fill="#181818" points="768.0732,241.2266,778.0732,245.2266,768.0732,249.2266,772.0732,245.2266"
+                     style="stroke:#181818;stroke-width:1;"/>
+            <line style="stroke:#181818;stroke-width:1;" x1="597.5024" x2="774.0732" y1="245.2266" y2="245.2266"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="158.5708"
+                  x="604.5024" y="240.1606">make necessary queries
+            </text>
+        </g>
+        <g class="message" data-participant-1="Database" data-participant-2="RoutingAlgorithm">
+            <polygon fill="#181818" points="608.5024,270.3594,598.5024,274.3594,608.5024,278.3594,604.5024,274.3594"
+                     style="stroke:#181818;stroke-width:1;"/>
+            <line style="stroke:#181818;stroke-width:1;" x1="602.5024" x2="779.0732" y1="274.3594" y2="274.3594"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="59.3315"
+                  x="614.5024" y="269.2935">response
+            </text>
+        </g>
+        <g class="message" data-participant-1="RoutingAlgorithm" data-participant-2="Engine">
+            <polygon fill="#181818" points="440.8296,299.4922,430.8296,303.4922,440.8296,307.4922,436.8296,303.4922"
+                     style="stroke:#181818;stroke-width:1;"/>
+            <line style="stroke:#181818;stroke-width:1;" x1="434.8296" x2="596.5024" y1="303.4922" y2="303.4922"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="123.2207"
+                  x="446.8296" y="298.4263">return route object
+            </text>
+        </g>
+        <g class="message" data-participant-1="Engine" data-participant-2="GUI">
+            <polygon fill="#181818" points="267.7422,343.7578,257.7422,347.7578,267.7422,351.7578,263.7422,347.7578"
+                     style="stroke:#181818;stroke-width:1;"/>
+            <line style="stroke:#181818;stroke-width:1;" x1="261.7422" x2="428.8296" y1="347.7578" y2="347.7578"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="138.2456"
+                  x="273.7422" y="327.5591">return route object +
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="87.3628"
+                  x="273.7422" y="342.6919">relevant data
+            </text>
+        </g>
+        <g class="message" data-participant-1="GUI" data-participant-2="User">
+            <polygon fill="#181818" points="34.9551,388.0234,24.9551,392.0234,34.9551,396.0234,30.9551,392.0234"
+                     style="stroke:#181818;stroke-width:1;"/>
+            <line style="stroke:#181818;stroke-width:1;" x1="28.9551" x2="255.7422" y1="392.0234" y2="392.0234"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="99.9502"
+                  x="40.9551" y="371.8247">display route +
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="87.3628"
+                  x="40.9551" y="386.9575">relevant data
+            </text>
+        </g><!--SRC=[RP71IiGm48RlUOeX9sLh7o228Bg87XHSzzPBDXswSTD9dKoLHNntawq5MNf9oEIVR_xyiKuYmpOXArLMkBg1X-sZ0IH1Jf34ihpv7Yk8x3jFLKCj9l5anKUguIvuTqYWD_lu1Hn7GQqoe73MbFLeu6dpyWoC7sFkgw2XRot70RNHx5lK6GYwhcjjfgtI4yMSJZzgeXJUQwvxwcv3bwt8lZVWR71Zi8Bb2Y_AeCjhTQuhlVTMxCwcxAQt1mH2XobPFa9snHwJcWNBWnZJ42dX8dj-9wECJ5C847VlwEIV-rEg2n9ODSGOyDEIG9jTpF6Lxp3G-ZG4U_nhMS6P-1S0]-->
+    </g>
+</svg>

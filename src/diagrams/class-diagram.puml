@@ -1,0 +1,213 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+' Package: app
+package "app" {
+    class Application {
+        - Engine engine
+        - MainPage mainPage
+        --
+        + Route processRouteRequest(request.RouteRequest)
+        + Heatmap processHeatmapRequest(request.HeatmapRequest)
+        + void processGtfsLoadFolderRequest(request.GtfsLoadFolderRequest)
+    }
+}
+
+' Package: request
+package "request" {
+    interface GraphRequest {
+        + Graph getGraph()
+    }
+
+    class RouteRequest implements GraphRequest {
+        + Graph getGraph()
+    }
+
+    class HeatmapRequest implements GraphRequest {
+        + Graph getGraph()
+    }
+
+    class GtfsLoadFolderRequest implements Request {
+        + String getFolderPath()
+    }
+}
+
+' Package: Backend
+package "Backend" {
+    class Engine {
+        --
+        + Engine(AlgorithmFactory factory)
+        + Result processRequest(request.Request request)
+        + void processGtfsLoadFolderRequest(request.GtfsLoadFolderRequest request)
+    }
+
+    interface RequestHandler {
+        + Result handleRequest(request.Request request)
+    }
+
+    class RouteRequestHandler implements RequestHandler {
+        - RoutingAlgorithm algorithm
+        --
+        + RouteRequestHandler(RoutingAlgorithm algorithm)
+        + Result handleRequest(request.Request request)
+    }
+
+    class HeatmapRequestHandler implements RequestHandler {
+        - HeatmapAlgorithm algorithm
+        --
+        + HeatmapRequestHandler(HeatmapAlgorithm algorithm)
+        + Result handleRequest(request.Request request)
+    }
+
+    interface RoutingAlgorithm {
+        + Route calculateRoute(Graph graph)
+    }
+
+    interface HeatmapAlgorithm {
+        + Heatmap calculateHeatmap(Graph graph)
+    }
+
+    class AStar implements RoutingAlgorithm {
+        + Route calculateRoute(Graph graph)
+    }
+
+    class Dijkstra implements RoutingAlgorithm {
+        + Route calculateRoute(Graph graph)
+    }
+
+    class someHeatmapAlgorithm implements HeatmapAlgorithm {
+        + Heatmap calculateHeatmap(Graph graph)
+    }
+
+    class AlgorithmFactory {
+        + RoutingAlgorithm getRoutingAlgorithm(request.Request request)
+        + HeatmapAlgorithm getHeatmapAlgorithm(request.Request request)
+    }
+}
+
+' Package: database
+package "database" {
+    class GtfsReader {
+        - String folderPath
+        - String folderName
+        --
+        + GtfsReader(String folderPath)
+        + Connection loadGtfsFolder()
+    }
+
+    abstract DbQuery {
+        - Connection dbConnection
+        --
+        + Statement queryDb()
+    }
+
+    class TripQuery extends DbQuery {
+        --
+        + Statement queryDb()
+    }
+}
+
+' Package: DataStructures
+package "DataStructures" {
+
+    class Vertex {
+        - Stop stop
+        - int shortestTime
+        - Map<Vertex, List<Edge>> adjacent
+        - List<Edge> shortestPath
+        --
+        + Vertex(Stop)
+        + int compareTo(Vertex)
+    }
+
+    class Edge {
+        - int departureTime
+        - int arrivalTime
+        - Vertex source
+        - Vertex destination
+        - int tripid
+        - int routeid
+        - TransportType transportType
+        --
+        + Edge()
+    }
+
+    class Graph {
+        - Map<Vertex, List<Edge>> adjacencyList
+        --
+        + Graph(Map<Vertex, List<Edge>>)
+        + List<Edge> getEdges()
+    }
+}
+
+' Package: helper
+package "helper" {
+    class Stop {
+        - int stopId
+        - String stopCode
+        - String stopName
+        - double stopLat
+        - double stopLon
+        --
+        + Stop(int stopId, String stopCode, String stopName, double stopLat, double stopLon)
+    }
+
+    class Route {
+        - List<Edge> edges
+        --
+        + double getRouteTime()
+        + Stop getFirstStop()
+        + Stop getLastStop()
+        + List<Shape> getRouteShapes()
+    }
+}
+
+' Package: UI
+package "UI" {
+    class JxMap {
+        - JXMapViewer jXMapViewer
+        --
+        + Map(JXMapViewerint)
+    }
+
+    class MainPage {
+        - JxMap map
+    }
+
+    abstract Component {
+        + void render()
+    }
+
+    class Button extends Component {
+
+    }
+
+    class InputField extends Component {
+
+    }
+}
+
+' Updated Relationships
+Application --> Engine : sends requests
+Application --> request.Request : creates
+Engine --> request.Request : processes
+Engine --> GtfsReader : uses
+Engine --> AlgorithmFactory : uses
+Engine --> RequestHandler : delegates
+AlgorithmFactory --> RoutingAlgorithm : creates
+AlgorithmFactory --> HeatmapAlgorithm : creates
+RoutingAlgorithm --> DbQuery : queries
+HeatmapAlgorithm --> DbQuery : queries
+Graph --> Edge : contains
+Graph --> Vertex : contains
+RoutingAlgorithm --> Graph : uses
+HeatmapAlgorithm --> Graph : uses
+Vertex --> helper.Stop : contains
+Edge --> helper.Route : references
+helper.Stop --> helper.Route : related
+Application --> MainPage : has
+MainPage --> JxMap : uses
+MainPage --> Component : has
+MainPage --> helper.Route : renders
+
+@enduml

@@ -1,0 +1,808 @@
+<svg xmlns="http://www.w3.org/2000/svg" contentStyleType="text/css"
+     data-diagram-type="CLASS" height="1728px" preserveAspectRatio="none"
+     style="width:2718px;height:1728px;background:#FFFFFF;" version="1.1" viewBox="0 0 2718 1728" width="2718px"
+     zoomAndPan="magnify">
+    <defs/>
+    <g><!--cluster app-->
+        <g class="cluster" data-entity="app" data-source-line="4" data-uid="ent0002" id="cluster_app">
+            <path d="M1651.5,6 L1681.9902,6 A3.75,3.75 0 0 1 1684.4902,8.5 L1691.4902,28.2969 L2058.5,28.2969 A2.5,2.5 0 0 1 2061,30.7969 L2061,200.29 A2.5,2.5 0 0 1 2058.5,202.79 L1651.5,202.79 A2.5,2.5 0 0 1 1649,200.29 L1649,8.5 A2.5,2.5 0 0 1 1651.5,6"
+                  fill="none" style="stroke:#000000;stroke-width:1.5;"/>
+            <line style="stroke:#000000;stroke-width:1.5;" x1="1649" x2="1691.4902" y1="28.2969" y2="28.2969"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing"
+                  textLength="29.4902" x="1653" y="20.9951">app
+            </text>
+        </g><!--cluster request-->
+        <g class="cluster" data-entity="request" data-source-line="17" data-uid="ent0004" id="cluster_request">
+            <path d="M1789.5,511.86 L1851.4082,511.86 A3.75,3.75 0 0 1 1853.9082,514.36 L1860.9082,534.1569 L2306.5,534.1569 A2.5,2.5 0 0 1 2309,536.6569 L2309,806.7 A2.5,2.5 0 0 1 2306.5,809.2 L1789.5,809.2 A2.5,2.5 0 0 1 1787,806.7 L1787,514.36 A2.5,2.5 0 0 1 1789.5,511.86"
+                  fill="none" style="stroke:#000000;stroke-width:1.5;"/>
+            <line style="stroke:#000000;stroke-width:1.5;" x1="1787" x2="1860.9082" y1="534.1569" y2="534.1569"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing"
+                  textLength="60.9082" x="1791" y="526.8551">request
+            </text>
+        </g><!--cluster Backend-->
+        <g class="cluster" data-entity="Backend" data-source-line="38" data-uid="ent0013" id="cluster_Backend">
+            <path d="M8.5,251.79 L76.7109,251.79 A3.75,3.75 0 0 1 79.2109,254.29 L86.2109,274.0869 L971.5,274.0869 A2.5,2.5 0 0 1 974,276.5869 L974,995.44 A2.5,2.5 0 0 1 971.5,997.94 L8.5,997.94 A2.5,2.5 0 0 1 6,995.44 L6,254.29 A2.5,2.5 0 0 1 8.5,251.79"
+                  fill="none" style="stroke:#000000;stroke-width:1.5;"/>
+            <line style="stroke:#000000;stroke-width:1.5;" x1="6" x2="86.2109" y1="274.0869" y2="274.0869"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing"
+                  textLength="67.2109" x="10" y="266.7851">Backend
+            </text>
+        </g><!--cluster database-->
+        <g class="cluster" data-entity="database" data-source-line="75" data-uid="ent0024" id="cluster_database">
+            <path d="M1000.5,479.27 L1074.4053,479.27 A3.75,3.75 0 0 1 1076.9053,481.77 L1083.9053,501.5669 L1760.5,501.5669 A2.5,2.5 0 0 1 1763,504.0669 L1763,814.85 A2.5,2.5 0 0 1 1760.5,817.35 L1000.5,817.35 A2.5,2.5 0 0 1 998,814.85 L998,481.77 A2.5,2.5 0 0 1 1000.5,479.27"
+                  fill="none" style="stroke:#000000;stroke-width:1.5;"/>
+            <line style="stroke:#000000;stroke-width:1.5;" x1="998" x2="1083.9053" y1="501.5669" y2="501.5669"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing"
+                  textLength="72.9053" x="1002" y="494.2651">database
+            </text>
+        </g><!--cluster DataStructures-->
+        <g class="cluster" data-entity="DataStructures" data-source-line="99" data-uid="ent0029"
+           id="cluster_DataStructures">
+            <path d="M1000.5,866.35 L1122.0449,866.35 A3.75,3.75 0 0 1 1124.5449,868.85 L1131.5449,888.6469 L1548.5,888.6469 A2.5,2.5 0 0 1 1551,891.1469 L1551,1267.11 A2.5,2.5 0 0 1 1548.5,1269.61 L1000.5,1269.61 A2.5,2.5 0 0 1 998,1267.11 L998,868.85 A2.5,2.5 0 0 1 1000.5,866.35"
+                  fill="none" style="stroke:#000000;stroke-width:1.5;"/>
+            <line style="stroke:#000000;stroke-width:1.5;" x1="998" x2="1131.5449" y1="888.6469" y2="888.6469"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing"
+                  textLength="120.5449" x="1002" y="881.3451">DataStructures
+            </text>
+        </g><!--cluster helper-->
+        <g class="cluster" data-entity="helper" data-source-line="131" data-uid="ent0033" id="cluster_helper">
+            <path d="M454.5,1318.61 L506.1816,1318.61 A3.75,3.75 0 0 1 508.6816,1321.11 L515.6816,1340.9069 L1391.5,1340.9069 A2.5,2.5 0 0 1 1394,1343.4069 L1394,1719.38 A2.5,2.5 0 0 1 1391.5,1721.88 L454.5,1721.88 A2.5,2.5 0 0 1 452,1719.38 L452,1321.11 A2.5,2.5 0 0 1 454.5,1318.61"
+                  fill="none" style="stroke:#000000;stroke-width:1.5;"/>
+            <line style="stroke:#000000;stroke-width:1.5;" x1="452" x2="515.6816" y1="1340.9069" y2="1340.9069"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing"
+                  textLength="50.6816" x="456" y="1333.6051">helper
+            </text>
+        </g><!--cluster UI-->
+        <g class="cluster" data-entity="UI" data-source-line="162" data-uid="ent0039" id="cluster_UI">
+            <path d="M2335.5,276.23 L2353.0771,276.23 A3.75,3.75 0 0 1 2355.5771,278.73 L2362.5771,298.5269 L2708.5,298.5269 A2.5,2.5 0 0 1 2711,301.0269 L2711,640.96 A2.5,2.5 0 0 1 2708.5,643.46 L2335.5,643.46 A2.5,2.5 0 0 1 2333,640.96 L2333,278.73 A2.5,2.5 0 0 1 2335.5,276.23"
+                  fill="none" style="stroke:#000000;stroke-width:1.5;"/>
+            <line style="stroke:#000000;stroke-width:1.5;" x1="2333" x2="2362.5771" y1="298.5269" y2="298.5269"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing"
+                  textLength="16.5771" x="2337" y="291.2251">UI
+            </text>
+        </g><!--class Application-->
+        <g class="entity" data-entity="Application" data-source-line="5" data-uid="ent0003" id="entity_Application">
+            <rect fill="#F1F1F1" height="145.7813" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+                  width="380.7031" x="1664.65" y="41"/>
+            <ellipse cx="1811.6397" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M1814.6085,62.6406 Q1814.0304,62.9375 1813.3897,63.0781 Q1812.7491,63.2344 1812.046,63.2344 Q1809.546,63.2344 1808.2179,61.5938 Q1806.9054,59.9375 1806.9054,56.8125 Q1806.9054,53.6875 1808.2179,52.0313 Q1809.546,50.375 1812.046,50.375 Q1812.7491,50.375 1813.3897,50.5313 Q1814.046,50.6875 1814.6085,50.9844 L1814.6085,53.7031 Q1813.9835,53.125 1813.3897,52.8594 Q1812.796,52.5781 1812.171,52.5781 Q1810.8272,52.5781 1810.1397,53.6563 Q1809.4522,54.7188 1809.4522,56.8125 Q1809.4522,58.9063 1810.1397,59.9844 Q1810.8272,61.0469 1812.171,61.0469 Q1812.796,61.0469 1813.3897,60.7813 Q1813.9835,60.5 1814.6085,59.9219 L1814.6085,62.6406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78.2236"
+                  x="1832.1397" y="61.8467">Application
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1665.65" x2="2044.3531" y1="73" y2="73"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105.2324"
+                  x="1670.65" y="89.9951">-Engine engine
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146.9453"
+                  x="1670.65" y="106.292">-MainPage mainPage
+            </text>
+            <line style="stroke:#181818;stroke-width:1;" x1="1665.65" x2="2044.3531" y1="113.5938" y2="113.5938"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100.8779"
+                  x="1670.65" y="130.5889">+Application()
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="299.5713"
+                  x="1670.65" y="146.8857">+Route sendRouteRequest(RouteRequest)
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="368.7031"
+                  x="1670.65" y="163.1826">+Heatmap sendHeatmapRequest(HeatmapRequest)
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="345.9326"
+                  x="1670.65" y="179.4795">+Connection sendLoadGtfsRequest(GtfsRequest)
+            </text>
+        </g><!--class Request-->
+        <g class="entity" data-entity="Request" data-source-line="18" data-uid="ent0005" id="entity_Request">
+            <rect fill="#F1F1F1" height="48" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="89.4971"
+                  x="1810.25" y="555.01"/>
+            <ellipse cx="1825.25" cy="571.01" fill="#B4A7E5" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M1821.1719,566.7756 L1821.1719,564.6194 L1828.5625,564.6194 L1828.5625,566.7756 L1826.0938,566.7756 L1826.0938,574.8538 L1828.5625,574.8538 L1828.5625,577.01 L1821.1719,577.01 L1821.1719,574.8538 L1823.6406,574.8538 L1823.6406,566.7756 L1821.1719,566.7756 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing"
+                  textLength="57.4971" x="1839.25" y="575.8567">Request
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1811.25" x2="1898.7471" y1="587.01" y2="587.01"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1811.25" x2="1898.7471" y1="595.01" y2="595.01"/>
+        </g><!--class GraphRequest-->
+        <g class="entity" data-entity="GraphRequest" data-source-line="21" data-uid="ent0006" id="entity_GraphRequest">
+            <rect fill="#F1F1F1" height="64.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+                  width="147.9805" x="2049.01" y="546.86"/>
+            <ellipse cx="2071.003" cy="562.86" fill="#B4A7E5" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M2066.9249,558.6256 L2066.9249,556.4694 L2074.3155,556.4694 L2074.3155,558.6256 L2071.8468,558.6256 L2071.8468,566.7038 L2074.3155,566.7038 L2074.3155,568.86 L2066.9249,568.86 L2066.9249,566.7038 L2069.3936,566.7038 L2069.3936,558.6256 L2066.9249,558.6256 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing"
+                  textLength="100.4404" x="2086.557" y="567.7067">GraphRequest
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="2050.01" x2="2195.9905" y1="578.86" y2="578.86"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="2050.01" x2="2195.9905" y1="586.86" y2="586.86"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="135.9805"
+                  x="2055.01" y="603.8551">+Graph getGraph()
+            </text>
+        </g><!--class RouteRequest-->
+        <g class="entity" data-entity="RouteRequest" data-source-line="25" data-uid="ent0007" id="entity_RouteRequest">
+            <rect fill="#F1F1F1" height="64.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+                  width="147.9805" x="1956.01" y="728.9"/>
+            <ellipse cx="1978.7567" cy="744.9" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M1981.7254,750.5406 Q1981.1473,750.8375 1980.5067,750.9781 Q1979.8661,751.1344 1979.1629,751.1344 Q1976.6629,751.1344 1975.3348,749.4938 Q1974.0223,747.8375 1974.0223,744.7125 Q1974.0223,741.5875 1975.3348,739.9313 Q1976.6629,738.275 1979.1629,738.275 Q1979.8661,738.275 1980.5067,738.4313 Q1981.1629,738.5875 1981.7254,738.8844 L1981.7254,741.6031 Q1981.1004,741.025 1980.5067,740.7594 Q1979.9129,740.4781 1979.2879,740.4781 Q1977.9442,740.4781 1977.2567,741.5563 Q1976.5692,742.6188 1976.5692,744.7125 Q1976.5692,746.8063 1977.2567,747.8844 Q1977.9442,748.9469 1979.2879,748.9469 Q1979.9129,748.9469 1980.5067,748.6813 Q1981.1004,748.4 1981.7254,747.8219 L1981.7254,750.5406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98.7656"
+                  x="1994.4782" y="749.7467">RouteRequest
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1957.01" x2="2102.9905" y1="760.9" y2="760.9"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1957.01" x2="2102.9905" y1="768.9" y2="768.9"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="135.9805"
+                  x="1962.01" y="785.8951">+Graph getGraph()
+            </text>
+        </g><!--class HeatmapRequest-->
+        <g class="entity" data-entity="HeatmapRequest" data-source-line="29" data-uid="ent0009"
+           id="entity_HeatmapRequest">
+            <rect fill="#F1F1F1" height="64.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+                  width="153.8096" x="2139.1" y="728.9"/>
+            <ellipse cx="2154.1" cy="744.9" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M2157.0688,750.5406 Q2156.4906,750.8375 2155.85,750.9781 Q2155.2094,751.1344 2154.5063,751.1344 Q2152.0063,751.1344 2150.6781,749.4938 Q2149.3656,747.8375 2149.3656,744.7125 Q2149.3656,741.5875 2150.6781,739.9313 Q2152.0063,738.275 2154.5063,738.275 Q2155.2094,738.275 2155.85,738.4313 Q2156.5063,738.5875 2157.0688,738.8844 L2157.0688,741.6031 Q2156.4438,741.025 2155.85,740.7594 Q2155.2563,740.4781 2154.6313,740.4781 Q2153.2875,740.4781 2152.6,741.5563 Q2151.9125,742.6188 2151.9125,744.7125 Q2151.9125,746.8063 2152.6,747.8844 Q2153.2875,748.9469 2154.6313,748.9469 Q2155.2563,748.9469 2155.85,748.6813 Q2156.4438,748.4 2157.0688,747.8219 L2157.0688,750.5406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121.8096"
+                  x="2168.1" y="749.7467">HeatmapRequest
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="2140.1" x2="2291.9096" y1="760.9" y2="760.9"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="2140.1" x2="2291.9096" y1="768.9" y2="768.9"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="135.9805"
+                  x="2145.1" y="785.8951">+Graph getGraph()
+            </text>
+        </g><!--class GtfsRequest-->
+        <g class="entity" data-entity="GtfsRequest" data-source-line="33" data-uid="ent0011" id="entity_GtfsRequest">
+            <rect fill="#F1F1F1" height="48" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="118.0576"
+                  x="1802.97" y="737.05"/>
+            <ellipse cx="1817.97" cy="753.05" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M1820.9388,758.6906 Q1820.3606,758.9875 1819.72,759.1281 Q1819.0794,759.2844 1818.3763,759.2844 Q1815.8763,759.2844 1814.5481,757.6438 Q1813.2356,755.9875 1813.2356,752.8625 Q1813.2356,749.7375 1814.5481,748.0813 Q1815.8763,746.425 1818.3763,746.425 Q1819.0794,746.425 1819.72,746.5813 Q1820.3763,746.7375 1820.9388,747.0344 L1820.9388,749.7531 Q1820.3138,749.175 1819.72,748.9094 Q1819.1263,748.6281 1818.5013,748.6281 Q1817.1575,748.6281 1816.47,749.7063 Q1815.7825,750.7688 1815.7825,752.8625 Q1815.7825,754.9563 1816.47,756.0344 Q1817.1575,757.0969 1818.5013,757.0969 Q1819.1263,757.0969 1819.72,756.8313 Q1820.3138,756.55 1820.9388,755.9719 L1820.9388,758.6906 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86.0576"
+                  x="1831.97" y="757.8967">GtfsRequest
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1803.97" x2="1920.0276" y1="769.05" y2="769.05"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1803.97" x2="1920.0276" y1="777.05" y2="777.05"/>
+        </g><!--class Engine-->
+        <g class="entity" data-entity="Engine" data-source-line="39" data-uid="ent0014" id="entity_Engine">
+            <rect fill="#F1F1F1" height="129.4844" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+                  width="209.8867" x="748.06" y="286.79"/>
+            <ellipse cx="824.7626" cy="302.79" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M827.7314,308.4306 Q827.1533,308.7275 826.5126,308.8681 Q825.872,309.0244 825.1689,309.0244 Q822.6689,309.0244 821.3408,307.3838 Q820.0283,305.7275 820.0283,302.6025 Q820.0283,299.4775 821.3408,297.8213 Q822.6689,296.165 825.1689,296.165 Q825.872,296.165 826.5126,296.3213 Q827.1689,296.4775 827.7314,296.7744 L827.7314,299.4931 Q827.1064,298.915 826.5126,298.6494 Q825.9189,298.3681 825.2939,298.3681 Q823.9501,298.3681 823.2626,299.4463 Q822.5751,300.5088 822.5751,302.6025 Q822.5751,304.6963 823.2626,305.7744 Q823.9501,306.8369 825.2939,306.8369 Q825.9189,306.8369 826.5126,306.5713 Q827.1064,306.29 827.7314,305.7119 L827.7314,308.4306 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47.9814"
+                  x="845.2626" y="307.6367">Engine
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="749.06" x2="956.9467" y1="318.79" y2="318.79"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="197.8867"
+                  x="754.06" y="335.7851">-JSONReader requestReader
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="194.5986"
+                  x="754.06" y="352.082">-JSONWriter responseWriter
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130.5527"
+                  x="754.06" y="368.3789">-GtfsLoader loader
+            </text>
+            <line style="stroke:#181818;stroke-width:1;" x1="749.06" x2="956.9467" y1="375.6806" y2="375.6806"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70.6357"
+                  x="754.06" y="392.6757">+Engine()
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80.2334"
+                  x="754.06" y="408.9726">+void run()
+            </text>
+        </g><!--class RoutingAlgorithm-->
+        <g class="entity" data-entity="RoutingAlgorithm" data-source-line="48" data-uid="ent0015"
+           id="entity_RoutingAlgorithm">
+            <rect fill="#F1F1F1" height="64.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+                  width="273.3242" x="330.34" y="728.9"/>
+            <ellipse cx="401.3175" cy="744.9" fill="#B4A7E5" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M397.2394,740.6656 L397.2394,738.5094 L404.63,738.5094 L404.63,740.6656 L402.1613,740.6656 L402.1613,748.7438 L404.63,748.7438 L404.63,750.9 L397.2394,750.9 L397.2394,748.7438 L399.7082,748.7438 L399.7082,740.6656 L397.2394,740.6656 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing"
+                  textLength="122.8691" x="421.8175" y="749.7467">RoutingAlgorithm
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="331.34" x2="602.6642" y1="760.9" y2="760.9"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="331.34" x2="602.6642" y1="768.9" y2="768.9"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="261.3242"
+                  x="336.34" y="785.8951">+Route calculateRoute(Graph graph)
+            </text>
+        </g><!--class HeatmapAlgorithm-->
+        <g class="entity" data-entity="HeatmapAlgorithm" data-source-line="52" data-uid="ent0016"
+           id="entity_HeatmapAlgorithm">
+            <rect fill="#F1F1F1" height="64.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+                  width="319.4121" x="638.29" y="728.9"/>
+            <ellipse cx="727.3076" cy="744.9" fill="#B4A7E5" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M723.2295,740.6656 L723.2295,738.5094 L730.6201,738.5094 L730.6201,740.6656 L728.1513,740.6656 L728.1513,748.7438 L730.6201,748.7438 L730.6201,750.9 L723.2295,750.9 L723.2295,748.7438 L725.6982,748.7438 L725.6982,740.6656 L723.2295,740.6656 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing"
+                  textLength="132.877" x="747.8076" y="749.7467">HeatmapAlgorithm
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="639.29" x2="956.7021" y1="760.9" y2="760.9"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="639.29" x2="956.7021" y1="768.9" y2="768.9"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="307.4121"
+                  x="644.29" y="785.8951">+Heatmap calculateHeatmap(Graph graph)
+            </text>
+        </g><!--class AStar-->
+        <g class="entity" data-entity="AStar" data-source-line="56" data-uid="ent0017" id="entity_AStar">
+            <rect fill="#F1F1F1" height="64.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+                  width="273.3242" x="330.34" y="917.65"/>
+            <ellipse cx="443.6081" cy="933.65" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M446.5768,939.2906 Q445.9987,939.5875 445.3581,939.7281 Q444.7174,939.8844 444.0143,939.8844 Q441.5143,939.8844 440.1862,938.2438 Q438.8737,936.5875 438.8737,933.4625 Q438.8737,930.3375 440.1862,928.6813 Q441.5143,927.025 444.0143,927.025 Q444.7174,927.025 445.3581,927.1813 Q446.0143,927.3375 446.5768,927.6344 L446.5768,930.3531 Q445.9518,929.775 445.3581,929.5094 Q444.7643,929.2281 444.1393,929.2281 Q442.7956,929.2281 442.1081,930.3063 Q441.4206,931.3688 441.4206,933.4625 Q441.4206,935.5563 442.1081,936.6344 Q442.7956,937.6969 444.1393,937.6969 Q444.7643,937.6969 445.3581,937.4313 Q445.9518,937.15 446.5768,936.5719 L446.5768,939.2906 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38.2881"
+                  x="464.1081" y="938.4967">AStar
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="331.34" x2="602.6642" y1="949.65" y2="949.65"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="331.34" x2="602.6642" y1="957.65" y2="957.65"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="261.3242"
+                  x="336.34" y="974.6451">+Route calculateRoute(Graph graph)
+            </text>
+        </g><!--class Dijkstra-->
+        <g class="entity" data-entity="Dijkstra" data-source-line="60" data-uid="ent0019" id="entity_Dijkstra">
+            <rect fill="#F1F1F1" height="64.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+                  width="273.3242" x="22.34" y="917.65"/>
+            <ellipse cx="127.8595" cy="933.65" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M130.8283,939.2906 Q130.2502,939.5875 129.6095,939.7281 Q128.9689,939.8844 128.2658,939.8844 Q125.7658,939.8844 124.4377,938.2438 Q123.1252,936.5875 123.1252,933.4625 Q123.1252,930.3375 124.4377,928.6813 Q125.7658,927.025 128.2658,927.025 Q128.9689,927.025 129.6095,927.1813 Q130.2658,927.3375 130.8283,927.6344 L130.8283,930.3531 Q130.2033,929.775 129.6095,929.5094 Q129.0158,929.2281 128.3908,929.2281 Q127.047,929.2281 126.3595,930.3063 Q125.672,931.3688 125.672,933.4625 Q125.672,935.5563 126.3595,936.6344 Q127.047,937.6969 128.3908,937.6969 Q129.0158,937.6969 129.6095,937.4313 Q130.2033,937.15 130.8283,936.5719 L130.8283,939.2906 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="53.7852"
+                  x="148.3595" y="938.4967">Dijkstra
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="23.34" x2="294.6642" y1="949.65" y2="949.65"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="23.34" x2="294.6642" y1="957.65" y2="957.65"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="261.3242"
+                  x="28.34" y="974.6451">+Route calculateRoute(Graph graph)
+            </text>
+        </g><!--class SomeHeatmapAlgorithm-->
+        <g class="entity" data-entity="SomeHeatmapAlgorithm" data-source-line="64" data-uid="ent0021"
+           id="entity_SomeHeatmapAlgorithm">
+            <rect fill="#F1F1F1" height="64.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+                  width="319.4121" x="638.29" y="917.65"/>
+            <ellipse cx="707.456" cy="933.65" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M710.4248,939.2906 Q709.8466,939.5875 709.206,939.7281 Q708.5654,939.8844 707.8623,939.8844 Q705.3623,939.8844 704.0341,938.2438 Q702.7216,936.5875 702.7216,933.4625 Q702.7216,930.3375 704.0341,928.6813 Q705.3623,927.025 707.8623,927.025 Q708.5654,927.025 709.206,927.1813 Q709.8623,927.3375 710.4248,927.6344 L710.4248,930.3531 Q709.7998,929.775 709.206,929.5094 Q708.6123,929.2281 707.9873,929.2281 Q706.6435,929.2281 705.956,930.3063 Q705.2685,931.3688 705.2685,933.4625 Q705.2685,935.5563 705.956,936.6344 Q706.6435,937.6969 707.9873,937.6969 Q708.6123,937.6969 709.206,937.4313 Q709.7998,937.15 710.4248,936.5719 L710.4248,939.2906 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="172.5801"
+                  x="727.956" y="938.4967">SomeHeatmapAlgorithm
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="639.29" x2="956.7021" y1="949.65" y2="949.65"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="639.29" x2="956.7021" y1="957.65" y2="957.65"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="307.4121"
+                  x="644.29" y="974.6451">+Heatmap calculateHeatmap(Graph graph)
+            </text>
+        </g><!--class AlgorithmFactory-->
+        <g class="entity" data-entity="AlgorithmFactory" data-source-line="68" data-uid="ent0023"
+           id="entity_AlgorithmFactory">
+            <rect fill="#F1F1F1" height="80.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+                  width="443.3203" x="514.34" y="538.72"/>
+            <ellipse cx="671.2555" cy="554.72" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M674.2243,560.3606 Q673.6462,560.6575 673.0055,560.7981 Q672.3649,560.9544 671.6618,560.9544 Q669.1618,560.9544 667.8337,559.3138 Q666.5212,557.6575 666.5212,554.5325 Q666.5212,551.4075 667.8337,549.7513 Q669.1618,548.095 671.6618,548.095 Q672.3649,548.095 673.0055,548.2513 Q673.6618,548.4075 674.2243,548.7044 L674.2243,551.4231 Q673.5993,550.845 673.0055,550.5794 Q672.4118,550.2981 671.7868,550.2981 Q670.443,550.2981 669.7555,551.3763 Q669.068,552.4388 669.068,554.5325 Q669.068,556.6263 669.7555,557.7044 Q670.443,558.7669 671.7868,558.7669 Q672.4118,558.7669 673.0055,558.5013 Q673.5993,558.22 674.2243,557.6419 L674.2243,560.3606 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="120.9893"
+                  x="691.7555" y="559.5667">AlgorithmFactory
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="515.34" x2="956.6603" y1="570.72" y2="570.72"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="515.34" x2="956.6603" y1="578.72" y2="578.72"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="411.3047"
+                  x="520.34" y="595.7151">+RoutingAlgorithm getRoutingAlgorithm(Request request)
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="431.3203"
+                  x="520.34" y="612.012">+HeatmapAlgorithm getHeatmapAlgorithm(Request request)
+            </text>
+        </g><!--class GtfsLoader-->
+        <g class="entity" data-entity="GtfsLoader" data-source-line="76" data-uid="ent0025" id="entity_GtfsLoader">
+            <rect fill="#F1F1F1" height="129.4844" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+                  width="344.8076" x="1013.6" y="514.27"/>
+            <ellipse cx="1143.3734" cy="530.27" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M1146.3422,535.9106 Q1145.7641,536.2075 1145.1234,536.3481 Q1144.4828,536.5044 1143.7797,536.5044 Q1141.2797,536.5044 1139.9516,534.8638 Q1138.6391,533.2075 1138.6391,530.0825 Q1138.6391,526.9575 1139.9516,525.3013 Q1141.2797,523.645 1143.7797,523.645 Q1144.4828,523.645 1145.1234,523.8013 Q1145.7797,523.9575 1146.3422,524.2544 L1146.3422,526.9731 Q1145.7172,526.395 1145.1234,526.1294 Q1144.5297,525.8481 1143.9047,525.8481 Q1142.5609,525.8481 1141.8734,526.9263 Q1141.1859,527.9888 1141.1859,530.0825 Q1141.1859,532.1763 1141.8734,533.2544 Q1142.5609,534.3169 1143.9047,534.3169 Q1144.5297,534.3169 1145.1234,534.0513 Q1145.7172,533.77 1146.3422,533.1919 L1146.3422,535.9106 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76.7607"
+                  x="1163.8734" y="535.1167">GtfsLoader
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1014.6" x2="1357.4076" y1="546.27" y2="546.27"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123.3066"
+                  x="1019.6" y="563.2651">-String folderPath
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133.2256"
+                  x="1019.6" y="579.562">-String folderName
+            </text>
+            <line style="stroke:#181818;stroke-width:1;" x1="1014.6" x2="1357.4076" y1="586.8638" y2="586.8638"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="217.6699"
+                  x="1019.6" y="603.8589">+GtfsLoader(String folderPath)
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="208.5645"
+                  x="1019.6" y="620.1557">+Connection loadGtfsFolder()
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="332.8076"
+                  x="1019.6" y="636.4526">+void closeConnection(Connection connection)
+            </text>
+        </g><!--class DbQuery-->
+        <g class="entity" data-entity="DbQuery" data-source-line="85" data-uid="ent0026" id="entity_DbQuery">
+            <rect fill="#F1F1F1" height="96.8906" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+                  width="353.6123" x="1393.19" y="530.57"/>
+            <ellipse cx="1534.6392" cy="546.57" fill="#A9DCDF" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M1534.7486,541.9138 L1533.5923,546.9919 L1535.9205,546.9919 L1534.7486,541.9138 Z M1533.2642,539.6794 L1536.2486,539.6794 L1539.608,552.07 L1537.1548,552.07 L1536.3892,549.0075 L1533.108,549.0075 L1532.358,552.07 L1529.9205,552.07 L1533.2642,539.6794 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing"
+                  textLength="62.2139" x="1555.1392" y="551.4167">DbQuery
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1394.19" x2="1745.8023" y1="562.57" y2="562.57"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="165.8535"
+                  x="1399.19" y="579.5651">-Connection connection
+            </text>
+            <line style="stroke:#181818;stroke-width:1;" x1="1394.19" x2="1745.8023" y1="586.8669" y2="586.8669"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="245.6699"
+                  x="1399.19" y="603.862">+DbQuery(Connection connection)
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="341.6123"
+                  x="1399.19" y="620.1589">+abstract Statement queryDb(Statement query)
+            </text>
+        </g><!--class TripQuery-->
+        <g class="entity" data-entity="TripQuery" data-source-line="92" data-uid="ent0027" id="entity_TripQuery">
+            <rect fill="#F1F1F1" height="80.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+                  width="291.3916" x="1424.3" y="720.75"/>
+            <ellipse cx="1530.9304" cy="736.75" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M1533.8991,742.3906 Q1533.321,742.6875 1532.6804,742.8281 Q1532.0397,742.9844 1531.3366,742.9844 Q1528.8366,742.9844 1527.5085,741.3438 Q1526.196,739.6875 1526.196,736.5625 Q1526.196,733.4375 1527.5085,731.7813 Q1528.8366,730.125 1531.3366,730.125 Q1532.0397,730.125 1532.6804,730.2813 Q1533.3366,730.4375 1533.8991,730.7344 L1533.8991,733.4531 Q1533.2741,732.875 1532.6804,732.6094 Q1532.0866,732.3281 1531.4616,732.3281 Q1530.1179,732.3281 1529.4304,733.4063 Q1528.7429,734.4688 1528.7429,736.5625 Q1528.7429,738.6563 1529.4304,739.7344 Q1530.1179,740.7969 1531.4616,740.7969 Q1532.0866,740.7969 1532.6804,740.5313 Q1533.2741,740.25 1533.8991,739.6719 L1533.8991,742.3906 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69.6309"
+                  x="1551.4304" y="741.5967">TripQuery
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1425.3" x2="1714.6916" y1="752.75" y2="752.75"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1425.3" x2="1714.6916" y1="760.75" y2="760.75"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="253.0869"
+                  x="1430.3" y="777.7451">+TripQuery(Connection connection)
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="279.3916"
+                  x="1430.3" y="794.042">+Statement queryDb(Statement query)
+            </text>
+        </g><!--class Node-->
+        <g class="entity" data-entity="Node" data-source-line="100" data-uid="ent0030" id="entity_Node">
+            <rect fill="#F1F1F1" height="145.7813" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+                  width="263.7197" x="1014.14" y="1091.54"/>
+            <ellipse cx="1123.4808" cy="1107.54" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M1126.4496,1113.1806 Q1125.8714,1113.4775 1125.2308,1113.6181 Q1124.5902,1113.7744 1123.8871,1113.7744 Q1121.3871,1113.7744 1120.0589,1112.1338 Q1118.7464,1110.4775 1118.7464,1107.3525 Q1118.7464,1104.2275 1120.0589,1102.5713 Q1121.3871,1100.915 1123.8871,1100.915 Q1124.5902,1100.915 1125.2308,1101.0713 Q1125.8871,1101.2275 1126.4496,1101.5244 L1126.4496,1104.2431 Q1125.8246,1103.665 1125.2308,1103.3994 Q1124.6371,1103.1181 1124.0121,1103.1181 Q1122.6683,1103.1181 1121.9808,1104.1963 Q1121.2933,1105.2588 1121.2933,1107.3525 Q1121.2933,1109.4463 1121.9808,1110.5244 Q1122.6683,1111.5869 1124.0121,1111.5869 Q1124.6371,1111.5869 1125.2308,1111.3213 Q1125.8246,1111.04 1126.4496,1110.4619 L1126.4496,1113.1806 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36.5381"
+                  x="1143.9808" y="1112.3867">Node
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1015.14" x2="1276.8597" y1="1123.54" y2="1123.54"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71.5654"
+                  x="1020.14" y="1140.5351">-Stop stop
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119.8203"
+                  x="1020.14" y="1156.832">-int shortestTime
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="251.7197"
+                  x="1020.14" y="1173.1289">-Map&lt;Node, List&lt;Edge&gt;&gt; adjacent
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="181.4258"
+                  x="1020.14" y="1189.4257">-List&lt;Edge&gt; shortestPath
+            </text>
+            <line style="stroke:#181818;stroke-width:1;" x1="1015.14" x2="1276.8597" y1="1196.7275" y2="1196.7275"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125.7061"
+                  x="1020.14" y="1213.7226">+Node(Stop stop)
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="202.4941"
+                  x="1020.14" y="1230.0195">+int compareTo(Node other)
+            </text>
+        </g><!--class Edge-->
+        <g class="entity" data-entity="Edge" data-source-line="110" data-uid="ent0031" id="entity_Edge">
+            <rect fill="#F1F1F1" height="178.375" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+                  width="222.6152" x="1312.69" y="1075.24"/>
+            <ellipse cx="1402.1314" cy="1091.24" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M1405.1002,1096.8806 Q1404.522,1097.1775 1403.8814,1097.3181 Q1403.2408,1097.4744 1402.5377,1097.4744 Q1400.0377,1097.4744 1398.7095,1095.8338 Q1397.397,1094.1775 1397.397,1091.0525 Q1397.397,1087.9275 1398.7095,1086.2713 Q1400.0377,1084.615 1402.5377,1084.615 Q1403.2408,1084.615 1403.8814,1084.7713 Q1404.5377,1084.9275 1405.1002,1085.2244 L1405.1002,1087.9431 Q1404.4752,1087.365 1403.8814,1087.0994 Q1403.2877,1086.8181 1402.6627,1086.8181 Q1401.3189,1086.8181 1400.6314,1087.8963 Q1399.9439,1088.9588 1399.9439,1091.0525 Q1399.9439,1093.1463 1400.6314,1094.2244 Q1401.3189,1095.2869 1402.6627,1095.2869 Q1403.2877,1095.2869 1403.8814,1095.0213 Q1404.4752,1094.74 1405.1002,1094.1619 L1405.1002,1096.8806 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="35.2324"
+                  x="1422.6314" y="1096.0867">Edge
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1313.69" x2="1534.3052" y1="1107.24" y2="1107.24"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131.8994"
+                  x="1318.69" y="1124.2351">-int departureTime
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107.1807"
+                  x="1318.69" y="1140.532">-int arrivalTime
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92.8389"
+                  x="1318.69" y="1156.8289">-Node source
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124.4824"
+                  x="1318.69" y="1173.1257">-Node destination
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64.5518"
+                  x="1318.69" y="1189.4226">-int tripid
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77.8271"
+                  x="1318.69" y="1205.7195">-int routeid
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="210.6152"
+                  x="1318.69" y="1222.0164">-TransportType transportType
+            </text>
+            <line style="stroke:#181818;stroke-width:1;" x1="1313.69" x2="1534.3052" y1="1229.3181" y2="1229.3181"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57.8867"
+                  x="1318.69" y="1246.3132">+Edge()
+            </text>
+        </g><!--class Graph-->
+        <g class="entity" data-entity="Graph" data-source-line="122" data-uid="ent0032" id="entity_Graph">
+            <rect fill="#F1F1F1" height="96.8906" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+                  width="359.2314" x="1014.38" y="901.35"/>
+            <ellipse cx="1168.274" cy="917.35" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M1171.2428,922.9906 Q1170.6647,923.2875 1170.024,923.4281 Q1169.3834,923.5844 1168.6803,923.5844 Q1166.1803,923.5844 1164.8522,921.9438 Q1163.5397,920.2875 1163.5397,917.1625 Q1163.5397,914.0375 1164.8522,912.3813 Q1166.1803,910.725 1168.6803,910.725 Q1169.3834,910.725 1170.024,910.8813 Q1170.6803,911.0375 1171.2428,911.3344 L1171.2428,914.0531 Q1170.6178,913.475 1170.024,913.2094 Q1169.4303,912.9281 1168.8053,912.9281 Q1167.4615,912.9281 1166.774,914.0063 Q1166.0865,915.0688 1166.0865,917.1625 Q1166.0865,919.2563 1166.774,920.3344 Q1167.4615,921.3969 1168.8053,921.3969 Q1169.4303,921.3969 1170.024,921.1313 Q1170.6178,920.85 1171.2428,920.2719 L1171.2428,922.9906 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42.9434"
+                  x="1188.774" y="922.1967">Graph
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1015.38" x2="1372.6114" y1="933.35" y2="933.35"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="286.6855"
+                  x="1020.38" y="950.3451">-Map&lt;Node, List&lt;Edge&gt;&gt; adjacencyList
+            </text>
+            <line style="stroke:#181818;stroke-width:1;" x1="1015.38" x2="1372.6114" y1="957.6469" y2="957.6469"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="347.2314"
+                  x="1020.38" y="974.642">+Graph(Map&lt;Node, List&lt;Edge&gt;&gt; adjacencyList)
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="175.7861"
+                  x="1020.38" y="990.9389">+List&lt;Edge&gt; getEdges()
+            </text>
+        </g><!--class Stop-->
+        <g class="entity" data-entity="Stop" data-source-line="132" data-uid="ent0034" id="entity_Stop">
+            <rect fill="#F1F1F1" height="145.7813" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+                  width="610.0215" x="767.99" y="1353.61"/>
+            <ellipse cx="1052.8367" cy="1369.61" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M1055.8054,1375.2506 Q1055.2273,1375.5475 1054.5867,1375.6881 Q1053.9461,1375.8444 1053.2429,1375.8444 Q1050.7429,1375.8444 1049.4148,1374.2038 Q1048.1023,1372.5475 1048.1023,1369.4225 Q1048.1023,1366.2975 1049.4148,1364.6413 Q1050.7429,1362.985 1053.2429,1362.985 Q1053.9461,1362.985 1054.5867,1363.1413 Q1055.2429,1363.2975 1055.8054,1363.5944 L1055.8054,1366.3131 Q1055.1804,1365.735 1054.5867,1365.4694 Q1053.9929,1365.1881 1053.3679,1365.1881 Q1052.0242,1365.1881 1051.3367,1366.2663 Q1050.6492,1367.3288 1050.6492,1369.4225 Q1050.6492,1371.5163 1051.3367,1372.5944 Q1052.0242,1373.6569 1053.3679,1373.6569 Q1053.9929,1373.6569 1054.5867,1373.3913 Q1055.1804,1373.11 1055.8054,1372.5319 L1055.8054,1375.2506 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="31.8281"
+                  x="1073.3367" y="1374.4567">Stop
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="768.99" x2="1377.0115" y1="1385.61" y2="1385.61"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71.0049"
+                  x="773.99" y="1402.6051">-int stopId
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117.3594"
+                  x="773.99" y="1418.902">-String stopCode
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122.8213"
+                  x="773.99" y="1435.1989">-String stopName
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109.3203"
+                  x="773.99" y="1451.4957">-double stopLat
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112.6904"
+                  x="773.99" y="1467.7926">-double stopLon
+            </text>
+            <line style="stroke:#181818;stroke-width:1;" x1="768.99" x2="1377.0115" y1="1475.0944" y2="1475.0944"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="598.0215"
+                  x="773.99" y="1492.0895">+Stop(int stopId, String stopCode, String stopName, double stopLat, double
+                stopLon)
+            </text>
+        </g><!--class Route-->
+        <g class="entity" data-entity="Route" data-source-line="142" data-uid="ent0035" id="entity_Route">
+            <rect fill="#F1F1F1" height="129.4844" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+                  width="246.2676" x="1040.87" y="1576.4"/>
+            <ellipse cx="1139.1195" cy="1592.4" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M1142.0883,1598.0406 Q1141.5101,1598.3375 1140.8695,1598.4781 Q1140.2289,1598.6344 1139.5258,1598.6344 Q1137.0258,1598.6344 1135.6976,1596.9938 Q1134.3851,1595.3375 1134.3851,1592.2125 Q1134.3851,1589.0875 1135.6976,1587.4313 Q1137.0258,1585.775 1139.5258,1585.775 Q1140.2289,1585.775 1140.8695,1585.9313 Q1141.5258,1586.0875 1142.0883,1586.3844 L1142.0883,1589.1031 Q1141.4633,1588.525 1140.8695,1588.2594 Q1140.2758,1587.9781 1139.6508,1587.9781 Q1138.307,1587.9781 1137.6195,1589.0563 Q1136.932,1590.1188 1136.932,1592.2125 Q1136.932,1594.3063 1137.6195,1595.3844 Q1138.307,1596.4469 1139.6508,1596.4469 Q1140.2758,1596.4469 1140.8695,1596.1813 Q1141.4633,1595.9 1142.0883,1595.3219 L1142.0883,1598.0406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41.2686"
+                  x="1159.6195" y="1597.2467">Route
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="1041.87" x2="1286.1376" y1="1608.4" y2="1608.4"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="134.9619"
+                  x="1046.87" y="1625.3951">-List&lt;Edge&gt; edges
+            </text>
+            <line style="stroke:#181818;stroke-width:1;" x1="1041.87" x2="1286.1376" y1="1632.6969" y2="1632.6969"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="173.7695"
+                  x="1046.87" y="1649.692">+double getRouteTime()
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="144.2314"
+                  x="1046.87" y="1665.9889">+Stop getFirstStop()
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="142.9121"
+                  x="1046.87" y="1682.2857">+Stop getLastStop()
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="234.2676"
+                  x="1046.87" y="1698.5826">+List&lt;Shape&gt; getRouteShapes()
+            </text>
+        </g><!--class Heatmap-->
+        <g class="entity" data-entity="Heatmap" data-source-line="151" data-uid="ent0036" id="entity_Heatmap">
+            <rect fill="#F1F1F1" height="48" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="96.3125"
+                  x="467.84" y="1402.5"/>
+            <ellipse cx="482.84" cy="1418.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M485.8088,1424.1406 Q485.2306,1424.4375 484.59,1424.5781 Q483.9494,1424.7344 483.2463,1424.7344 Q480.7463,1424.7344 479.4181,1423.0938 Q478.1056,1421.4375 478.1056,1418.3125 Q478.1056,1415.1875 479.4181,1413.5313 Q480.7463,1411.875 483.2463,1411.875 Q483.9494,1411.875 484.59,1412.0313 Q485.2463,1412.1875 485.8088,1412.4844 L485.8088,1415.2031 Q485.1838,1414.625 484.59,1414.3594 Q483.9963,1414.0781 483.3713,1414.0781 Q482.0275,1414.0781 481.34,1415.1563 Q480.6525,1416.2188 480.6525,1418.3125 Q480.6525,1420.4063 481.34,1421.4844 Q482.0275,1422.5469 483.3713,1422.5469 Q483.9963,1422.5469 484.59,1422.2813 Q485.1838,1422 485.8088,1421.4219 L485.8088,1424.1406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64.3125"
+                  x="496.84" y="1423.3467">Heatmap
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="468.84" x2="563.1525" y1="1434.5" y2="1434.5"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="468.84" x2="563.1525" y1="1442.5" y2="1442.5"/>
+        </g><!--class TransportType-->
+        <g class="entity" data-entity="TransportType" data-source-line="154" data-uid="ent0037"
+           id="entity_TransportType">
+            <rect fill="#F1F1F1" height="48" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="134.0879"
+                  x="598.96" y="1402.5"/>
+            <ellipse cx="613.96" cy="1418.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M616.9288,1424.1406 Q616.3506,1424.4375 615.71,1424.5781 Q615.0694,1424.7344 614.3663,1424.7344 Q611.8663,1424.7344 610.5381,1423.0938 Q609.2256,1421.4375 609.2256,1418.3125 Q609.2256,1415.1875 610.5381,1413.5313 Q611.8663,1411.875 614.3663,1411.875 Q615.0694,1411.875 615.71,1412.0313 Q616.3663,1412.1875 616.9288,1412.4844 L616.9288,1415.2031 Q616.3038,1414.625 615.71,1414.3594 Q615.1163,1414.0781 614.4913,1414.0781 Q613.1475,1414.0781 612.46,1415.1563 Q611.7725,1416.2188 611.7725,1418.3125 Q611.7725,1420.4063 612.46,1421.4844 Q613.1475,1422.5469 614.4913,1422.5469 Q615.1163,1422.5469 615.71,1422.2813 Q616.3038,1422 616.9288,1421.4219 L616.9288,1424.1406 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102.0879"
+                  x="627.96" y="1423.3467">TransportType
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="599.96" x2="732.0479" y1="1434.5" y2="1434.5"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="599.96" x2="732.0479" y1="1442.5" y2="1442.5"/>
+        </g><!--class Shape-->
+        <g class="entity" data-entity="Shape" data-source-line="157" data-uid="ent0038" id="entity_Shape">
+            <rect fill="#F1F1F1" height="48" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="75.8389"
+                  x="478.08" y="1617.14"/>
+            <ellipse cx="493.08" cy="1633.14" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M496.0488,1638.7806 Q495.4706,1639.0775 494.83,1639.2181 Q494.1894,1639.3744 493.4863,1639.3744 Q490.9863,1639.3744 489.6581,1637.7338 Q488.3456,1636.0775 488.3456,1632.9525 Q488.3456,1629.8275 489.6581,1628.1713 Q490.9863,1626.515 493.4863,1626.515 Q494.1894,1626.515 494.83,1626.6713 Q495.4863,1626.8275 496.0488,1627.1244 L496.0488,1629.8431 Q495.4238,1629.265 494.83,1628.9994 Q494.2363,1628.7181 493.6113,1628.7181 Q492.2675,1628.7181 491.58,1629.7963 Q490.8925,1630.8588 490.8925,1632.9525 Q490.8925,1635.0463 491.58,1636.1244 Q492.2675,1637.1869 493.6113,1637.1869 Q494.2363,1637.1869 494.83,1636.9213 Q495.4238,1636.64 496.0488,1636.0619 L496.0488,1638.7806 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="43.8389"
+                  x="507.08" y="1637.9867">Shape
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="479.08" x2="552.9189" y1="1649.14" y2="1649.14"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="479.08" x2="552.9189" y1="1657.14" y2="1657.14"/>
+        </g><!--class JxMap-->
+        <g class="entity" data-entity="JxMap" data-source-line="163" data-uid="ent0040" id="entity_JxMap">
+            <rect fill="#F1F1F1" height="96.8906" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+                  width="345.4639" x="2349.27" y="530.57"/>
+            <ellipse cx="2496.7724" cy="546.57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M2499.7412,552.2106 Q2499.1631,552.5075 2498.5224,552.6481 Q2497.8818,552.8044 2497.1787,552.8044 Q2494.6787,552.8044 2493.3506,551.1638 Q2492.0381,549.5075 2492.0381,546.3825 Q2492.0381,543.2575 2493.3506,541.6013 Q2494.6787,539.945 2497.1787,539.945 Q2497.8818,539.945 2498.5224,540.1013 Q2499.1787,540.2575 2499.7412,540.5544 L2499.7412,543.2731 Q2499.1162,542.695 2498.5224,542.4294 Q2497.9287,542.1481 2497.3037,542.1481 Q2495.9599,542.1481 2495.2724,543.2263 Q2494.5849,544.2888 2494.5849,546.3825 Q2494.5849,548.4763 2495.2724,549.5544 Q2495.9599,550.6169 2497.3037,550.6169 Q2497.9287,550.6169 2498.5224,550.3513 Q2499.1162,550.07 2499.7412,549.4919 L2499.7412,552.2106 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41.959"
+                  x="2517.2724" y="551.4167">JxMap
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="2350.27" x2="2693.7339" y1="562.57" y2="562.57"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133.3418"
+                  x="2355.27" y="579.5651">-double startingLat
+            </text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136.7119"
+                  x="2355.27" y="595.862">-double startingLon
+            </text>
+            <line style="stroke:#181818;stroke-width:1;" x1="2350.27" x2="2693.7339" y1="603.1638" y2="603.1638"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="333.4639"
+                  x="2355.27" y="620.1589">+JxMap(double startingLat, double startingLon)
+            </text>
+        </g><!--class MainPage-->
+        <g class="entity" data-entity="MainPage" data-source-line="170" data-uid="ent0041" id="entity_MainPage">
+            <rect fill="#F1F1F1" height="80.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;"
+                  width="102.5967" x="2409.7" y="311.23"/>
+            <ellipse cx="2425.8944" cy="327.23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M2428.8632,332.8706 Q2428.2851,333.1675 2427.6444,333.3081 Q2427.0038,333.4644 2426.3007,333.4644 Q2423.8007,333.4644 2422.4726,331.8238 Q2421.1601,330.1675 2421.1601,327.0425 Q2421.1601,323.9175 2422.4726,322.2613 Q2423.8007,320.605 2426.3007,320.605 Q2427.0038,320.605 2427.6444,320.7613 Q2428.3007,320.9175 2428.8632,321.2144 L2428.8632,323.9331 Q2428.2382,323.355 2427.6444,323.0894 Q2427.0507,322.8081 2426.4257,322.8081 Q2425.0819,322.8081 2424.3944,323.8863 Q2423.7069,324.9488 2423.7069,327.0425 Q2423.7069,329.1363 2424.3944,330.2144 Q2425.0819,331.2769 2426.4257,331.2769 Q2427.0507,331.2769 2427.6444,331.0113 Q2428.2382,330.73 2428.8632,330.1519 L2428.8632,332.8706 Z "
+                  fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67.9424"
+                  x="2440.1599" y="332.0767">MainPage
+            </text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="2410.7" x2="2511.2967" y1="343.23" y2="343.23"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82.5645"
+                  x="2415.7" y="360.2251">-JxMap map
+            </text>
+            <line style="stroke:#181818;stroke-width:1;" x1="2410.7" x2="2511.2967" y1="367.5269" y2="367.5269"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90.5967"
+                  x="2415.7" y="384.522">+MainPage()
+            </text>
+        </g><!--reverse link GraphRequest to RouteRequest-->
+        <g class="link" data-entity-1="GraphRequest" data-entity-2="RouteRequest" data-source-line="26" data-uid="lnk8"
+           id="link_GraphRequest_RouteRequest">
+            <path d="M2098.5424,627.3641 C2081.5824,660.2141 2063.34,695.51 2046.33,728.45" fill="none"
+                  id="GraphRequest-backto-RouteRequest"
+                  style="stroke:#181818;stroke-width:1;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="none" points="2106.8,611.37,2093.2111,624.6116,2103.8738,630.1167,2106.8,611.37"
+                     style="stroke:#181818;stroke-width:1;"/>
+        </g><!--reverse link GraphRequest to HeatmapRequest-->
+        <g class="link" data-entity-1="GraphRequest" data-entity-2="HeatmapRequest" data-source-line="30"
+           data-uid="lnk10" id="link_GraphRequest_HeatmapRequest">
+            <path d="M2147.4576,627.3641 C2164.4176,660.2141 2182.66,695.51 2199.67,728.45" fill="none"
+                  id="GraphRequest-backto-HeatmapRequest"
+                  style="stroke:#181818;stroke-width:1;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="none" points="2139.2,611.37,2142.1262,630.1167,2152.7889,624.6116,2139.2,611.37"
+                     style="stroke:#181818;stroke-width:1;"/>
+        </g><!--reverse link Request to GtfsRequest-->
+        <g class="link" data-entity-1="Request" data-entity-2="GtfsRequest" data-uid="lnk12"
+           id="link_Request_GtfsRequest">
+            <path d="M1856.599,621.1664 C1857.939,655.6464 1859.75,702.1 1861.09,736.69" fill="none"
+                  id="Request-backto-GtfsRequest" style="stroke:#181818;stroke-width:1;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="none" points="1855.9,603.18,1850.6035,621.3994,1862.5945,620.9334,1855.9,603.18"
+                     style="stroke:#181818;stroke-width:1;"/>
+        </g><!--reverse link RoutingAlgorithm to AStar-->
+        <g class="link" data-entity-1="RoutingAlgorithm" data-entity-2="AStar" data-source-line="57" data-uid="lnk18"
+           id="link_RoutingAlgorithm_AStar">
+            <path d="M467,811.31 C467,845.78 467,882.92 467,917.44" fill="none" id="RoutingAlgorithm-backto-AStar"
+                  style="stroke:#181818;stroke-width:1;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="none" points="467,793.31,461,811.31,473,811.31,467,793.31"
+                     style="stroke:#181818;stroke-width:1;"/>
+        </g><!--reverse link RoutingAlgorithm to Dijkstra-->
+        <g class="link" data-entity-1="RoutingAlgorithm" data-entity-2="Dijkstra" data-source-line="61" data-uid="lnk20"
+           id="link_RoutingAlgorithm_Dijkstra">
+            <path d="M399.7072,802.8506 C342.9572,837.2506 267.94,882.74 211.11,917.2" fill="none"
+                  id="RoutingAlgorithm-backto-Dijkstra"
+                  style="stroke:#181818;stroke-width:1;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="none" points="415.1,793.52,396.597,797.7197,402.8174,807.9816,415.1,793.52"
+                     style="stroke:#181818;stroke-width:1;"/>
+        </g><!--reverse link HeatmapAlgorithm to SomeHeatmapAlgorithm-->
+        <g class="link" data-entity-1="HeatmapAlgorithm" data-entity-2="SomeHeatmapAlgorithm" data-source-line="65"
+           data-uid="lnk22" id="link_HeatmapAlgorithm_SomeHeatmapAlgorithm">
+            <path d="M798,811.31 C798,845.78 798,882.92 798,917.44" fill="none"
+                  id="HeatmapAlgorithm-backto-SomeHeatmapAlgorithm"
+                  style="stroke:#181818;stroke-width:1;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="none" points="798,793.31,792,811.31,804,811.31,798,793.31"
+                     style="stroke:#181818;stroke-width:1;"/>
+        </g><!--reverse link DbQuery to TripQuery-->
+        <g class="link" data-entity-1="DbQuery" data-entity-2="TripQuery" data-source-line="93" data-uid="lnk28"
+           id="link_DbQuery_TripQuery">
+            <path d="M1570,645.79 C1570,674.64 1570,692.99 1570,720.28" fill="none" id="DbQuery-backto-TripQuery"
+                  style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="none" points="1570,627.79,1564,645.79,1576,645.79,1570,627.79"
+                     style="stroke:#181818;stroke-width:1;"/>
+        </g><!--link Application to Engine-->
+        <g class="link" data-entity-1="Application" data-entity-2="Engine" data-source-line="178" data-uid="lnk42"
+           id="link_Application_Engine">
+            <path codeLine="178" d="M1664.17,159.77 C1454.51,209.08 1131.1907,285.1064 963.9507,324.4364" fill="none"
+                  id="Application-to-Engine" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="#181818"
+                     points="958.11,325.81,967.7867,327.6434,962.9772,324.6654,965.9553,319.8559,958.11,325.81"
+                     style="stroke:#181818;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="98.6426"
+                  x="1385" y="231.8569">sends requests
+            </text>
+        </g><!--link Application to Request-->
+        <g class="link" data-entity-1="Application" data-entity-2="Request" data-source-line="179" data-uid="lnk43"
+           id="link_Application_Request">
+            <path codeLine="179" d="M1855,187.26 C1855,293.85 1855,481.67 1855,548.57" fill="none"
+                  id="Application-to-Request" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="#181818" points="1855,554.57,1859,545.57,1855,549.57,1851,545.57,1855,554.57"
+                     style="stroke:#181818;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="48.3247"
+                  x="1856" y="356.0969">creates
+            </text>
+        </g><!--link Engine to Request-->
+        <g class="link" data-entity-1="Engine" data-entity-2="Request" data-source-line="180" data-uid="lnk44"
+           id="link_Engine_Request">
+            <path codeLine="180"
+                  d="M958.08,356.88 C1166.92,367.04 1625.84,397.3 1763,471.27 C1798.74,490.55 1823.6986,524.5858 1839.0186,549.7358"
+                  fill="none" id="Engine-to-Request" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="#181818"
+                     points="1842.14,554.86,1840.8741,545.0928,1839.5389,550.5899,1834.0418,549.2547,1842.14,554.86"
+                     style="stroke:#181818;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="65.0127"
+                  x="1739" y="459.3369">processes
+            </text>
+        </g><!--link Engine to GtfsLoader-->
+        <g class="link" data-entity-1="Engine" data-entity-2="GtfsLoader" data-source-line="181" data-uid="lnk45"
+           id="link_Engine_GtfsLoader">
+            <path codeLine="181" d="M947.53,416.54 C992.53,447.01 1041.2421,479.9855 1086.2621,510.4755" fill="none"
+                  id="Engine-to-GtfsLoader" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="#181818"
+                     points="1091.23,513.84,1086.0212,505.4813,1087.0901,511.0362,1081.5351,512.1051,1091.23,513.84"
+                     style="stroke:#181818;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="29.7832"
+                  x="1010" y="459.3369">uses
+            </text>
+        </g><!--link Engine to AlgorithmFactory-->
+        <g class="link" data-entity-1="Engine" data-entity-2="AlgorithmFactory" data-source-line="182" data-uid="lnk46"
+           id="link_Engine_AlgorithmFactory">
+            <path codeLine="182" d="M819.79,416.54 C799.45,455.73 776.834,499.3246 759.364,532.9846" fill="none"
+                  id="Engine-to-AlgorithmFactory" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="#181818"
+                     points="756.6,538.31,764.2963,532.1645,758.9033,533.8721,757.1957,528.4792,756.6,538.31"
+                     style="stroke:#181818;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="29.7832"
+                  x="802" y="459.3369">uses
+            </text>
+        </g><!--link AlgorithmFactory to RoutingAlgorithm-->
+        <g class="link" data-entity-1="AlgorithmFactory" data-entity-2="RoutingAlgorithm" data-source-line="183"
+           data-uid="lnk47" id="link_AlgorithmFactory_RoutingAlgorithm">
+            <path codeLine="183" d="M676.63,619.75 C627.74,652.47 564.3358,694.9021 519.1358,725.1621" fill="none"
+                  id="AlgorithmFactory-to-RoutingAlgorithm" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="#181818"
+                     points="514.15,728.5,523.854,726.8171,518.3049,725.7184,519.4035,720.1693,514.15,728.5"
+                     style="stroke:#181818;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="48.3247"
+                  x="594" y="686.8169">creates
+            </text>
+        </g><!--link AlgorithmFactory to HeatmapAlgorithm-->
+        <g class="link" data-entity-1="AlgorithmFactory" data-entity-2="HeatmapAlgorithm" data-source-line="184"
+           data-uid="lnk48" id="link_AlgorithmFactory_HeatmapAlgorithm">
+            <path codeLine="184" d="M749.61,619.52 C760.87,652.23 774.7049,692.4275 785.1549,722.7475" fill="none"
+                  id="AlgorithmFactory-to-HeatmapAlgorithm" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="#181818"
+                     points="787.11,728.42,787.9591,718.6078,785.4808,723.6929,780.3957,721.2146,787.11,728.42"
+                     style="stroke:#181818;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="48.3247"
+                  x="773" y="686.8169">creates
+            </text>
+        </g><!--link RoutingAlgorithm to Graph-->
+        <g class="link" data-entity-1="RoutingAlgorithm" data-entity-2="Graph" data-source-line="185" data-uid="lnk49"
+           id="link_RoutingAlgorithm_Graph">
+            <path codeLine="185"
+                  d="M531.51,793.57 C558.54,805.45 590.69,817.88 621,825.35 C774,863.05 821,820.64 974,858.35 C1014.9,868.43 1052.6226,882.4492 1089.8426,898.5392"
+                  fill="none" id="RoutingAlgorithm-to-Graph" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="#181818"
+                     points="1095.35,900.92,1088.6761,893.6771,1090.7605,898.936,1085.5017,901.0204,1095.35,900.92"
+                     style="stroke:#181818;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="29.7832"
+                  x="932" y="846.4169">uses
+            </text>
+        </g><!--link HeatmapAlgorithm to Graph-->
+        <g class="link" data-entity-1="HeatmapAlgorithm" data-entity-2="Graph" data-source-line="186" data-uid="lnk50"
+           id="link_HeatmapAlgorithm_Graph">
+            <path codeLine="186"
+                  d="M898.61,793.69 C954.48,811.37 1013.95,830.44 1020,833.35 C1058.88,852.05 1094.3183,874.8356 1126.3483,897.5856"
+                  fill="none" id="HeatmapAlgorithm-to-Graph" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="#181818"
+                     points="1131.24,901.06,1126.2188,892.5873,1127.1636,898.1647,1121.5862,899.1095,1131.24,901.06"
+                     style="stroke:#181818;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="29.7832"
+                  x="1051" y="846.4169">uses
+            </text>
+        </g><!--link Graph to Edge-->
+        <g class="link" data-entity-1="Graph" data-entity-2="Edge" data-source-line="187" data-uid="lnk51"
+           id="link_Graph_Edge">
+            <path codeLine="187" d="M1245.62,998.51 C1269.99,1021.04 1295.474,1044.6072 1323.774,1070.7672" fill="none"
+                  id="Graph-to-Edge" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="#181818"
+                     points="1328.18,1074.84,1324.2863,1065.7935,1324.5084,1071.446,1318.8559,1071.6681,1328.18,1074.84"
+                     style="stroke:#181818;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55.0278"
+                  x="1296" y="1041.3069">contains
+            </text>
+        </g><!--link Graph to Node-->
+        <g class="link" data-entity-1="Graph" data-entity-2="Node" data-source-line="188" data-uid="lnk52"
+           id="link_Graph_Node">
+            <path codeLine="188" d="M1183.23,998.51 C1177.06,1025.82 1170.532,1054.7675 1163.622,1085.3575" fill="none"
+                  id="Graph-to-Node" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="#181818"
+                     points="1162.3,1091.21,1168.1847,1083.3125,1163.4017,1086.3329,1160.3814,1081.5498,1162.3,1091.21"
+                     style="stroke:#181818;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55.0278"
+                  x="1176" y="1041.3069">contains
+            </text>
+        </g><!--link Node to Stop-->
+        <g class="link" data-entity-1="Node" data-entity-2="Stop" data-source-line="189" data-uid="lnk53"
+           id="link_Node_Stop">
+            <path codeLine="189" d="M1125.76,1237.53 C1115.64,1273.61 1105.0315,1311.3932 1094.9015,1347.4832"
+                  fill="none" id="Node-to-Stop" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="#181818"
+                     points="1093.28,1353.26,1099.5634,1345.6758,1094.6312,1348.446,1091.861,1343.5139,1093.28,1353.26"
+                     style="stroke:#181818;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55.0278"
+                  x="1112" y="1298.6769">contains
+            </text>
+        </g><!--link Edge to Route-->
+        <g class="link" data-entity-1="Edge" data-entity-2="Route" data-source-line="190" data-uid="lnk54"
+           id="link_Edge_Route">
+            <path codeLine="190"
+                  d="M1437.4,1253.78 C1443.63,1325.33 1441.5,1425.94 1396,1499.4 C1370.7,1540.25 1334.0224,1568.0633 1292.6824,1590.1433"
+                  fill="none" id="Edge-to-Route" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="#181818"
+                     points="1287.39,1592.97,1297.2131,1592.2582,1291.8003,1590.6144,1293.4441,1585.2016,1287.39,1592.97"
+                     style="stroke:#181818;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="69.418"
+                  x="1440" y="1431.0669">references
+            </text>
+        </g><!--link Stop to Route-->
+        <g class="link" data-entity-1="Stop" data-entity-2="Route" data-source-line="191" data-uid="lnk55"
+           id="link_Stop_Route">
+            <path codeLine="191" d="M1103.94,1499.79 C1114.55,1524.59 1123.9892,1546.6339 1134.2992,1570.7239"
+                  fill="none" id="Stop-to-Route" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="#181818"
+                     points="1136.66,1576.24,1136.7962,1566.3921,1134.6927,1571.6433,1129.4415,1569.5398,1136.66,1576.24"
+                     style="stroke:#181818;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="46.2681"
+                  x="1122" y="1542.4669">related
+            </text>
+        </g><!--link Application to MainPage-->
+        <g class="link" data-entity-1="Application" data-entity-2="MainPage" data-source-line="192" data-uid="lnk56"
+           id="link_Application_MainPage">
+            <path codeLine="192" d="M2040.94,187.19 C2168.45,236.78 2323.0579,296.8955 2403.8079,328.2955" fill="none"
+                  id="Application-to-MainPage" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="#181818"
+                     points="2409.4,330.47,2402.4615,323.4802,2404.7399,328.6579,2399.5622,330.9363,2409.4,330.47"
+                     style="stroke:#181818;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22.9785"
+                  x="2159" y="231.8569">has
+            </text>
+        </g><!--link MainPage to JxMap-->
+        <g class="link" data-entity-1="MainPage" data-entity-2="JxMap" data-source-line="193" data-uid="lnk57"
+           id="link_MainPage_JxMap">
+            <path codeLine="193" d="M2471.77,392.32 C2482.2,430.88 2496.4637,483.608 2507.5537,524.618" fill="none"
+                  id="MainPage-to-JxMap" style="stroke:#181818;stroke-width:1;"/>
+            <polygon fill="#181818"
+                     points="2509.12,530.41,2510.6319,520.6779,2507.8148,525.5834,2502.9093,522.7662,2509.12,530.41"
+                     style="stroke:#181818;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="29.7832"
+                  x="2490" y="459.3369">uses
+            </text>
+        </g><!--SRC=[jLVTRzGu47_VlyBYXLJiedkkKAL2ALTKUhtkedkUTTnTqyGsjeFe8Vxt6tyaiHE7gmJqOMlFbySplnbFp0CN2ZIqX3PWpBcrckyxowwe55l-BoD_h5RFoItG1pYmKm9AhLJOa6UuUKQ-hGZ-UMLohbJ3ALWkHQIxlmrvAmvSCCByluJ-0RYuTQRQk1Xvcs7v8ZLRdIJqEucE4iD4xLTtx7F7ZAtIJIh-9mFRWl8ASTshvDjKwOqKWb5_8wTtBQ5-P-zDhvYiWzRtrVSiO3emnw15GXyuBYpJzq0PYMOY7Qtax7SQr36N2Hvw1ZamwnVLIQeUqf86XF1MDQnbmfgVCPa7x1SPJOAPMfm69W_mQrnWOiO0HqAEp8Z059Jljt_Tt36ecUwJ57OJaNyqjrx4A2aC2zj4nZdjK84oZSprKmm71pBuVf6y9heJUIWIG63Qk3YSDmU9XnxRB9e1-nGQsZM0sNNRAeRO_IxOZ7ahs-mBPB0Q2OjsOzLlBUWiOR_CyN301V_qOAo6ttd6LhPi5fpalDyIkDxO9L0hzUFi3ja5iNAcjAel3RtOxJBzAQsiFwsm6YpimR2nn7fANcD99QHrjiKNHHp8lMoGSmlskCIxWNRX0HWjLpDh2yswYOtwqWlEwuusqh1HlafKwR3CSWPxXq5gUr3k_-vObhCDAHefNocg_-ZS83WSYrLcFHZ9PwTviQycb0B2Tfghu2RxQh4fbjn-CKhzlpTFTYA7q0K21ZFNKTjX8ns1bDDpEDt8cas09F7nnf-4XfsDcAFK5j6xusq-NAXNpiQQN7DZNxsj3-piZ43z2VkWi8dWo1vCvJ1Dy-OiLeCdQMYSArIsE4ondQoyzz8UcIwanHsMNStfrWnLNHmczt0yq9f_WMR2yMSOsMawezPu2IuWnvytXVMZU3qXQjSXC-fEWy0NJzlTesAebEmM7ZYyK_5HzotmsrCJGnyTSQ4D-C7X2UffMfBiOWTq2rELGNfaZSBdUm1dsEUWz9cVPiuXuQgUjpL7VuEUbZbvkoErxFODyvnhi0kCfMxYtAf6LzPJ3zRJWzUJyzQJOvQcoEpkIMYPYslPjsWuFbyUtTN9n7V7lUJQM7-H4lSQ2aplmFO8AYJNs_TRyuEPDH-m-pwPehqWuAqkJA0VhqRCVBpAyVB-wmV80JF46OiTCxAGwyXSohStMyrDhGiM2f4OlhkoUTYxYW4g7zdhvCLpnnhVPCoHAxDAl_yscxD-wZxrdqwcdpBcSf7niXz7JWdLc2n4LBHG5b9QKcPCBfPC8QUacp1d4rSKcT6Ty6m26zqgoiychb5-PifxwZjZz62cF9C86nzMztoSkXVQOb9IZk_z2SVl7IFqifU-cXA-jvJmGusxhzPxfh6Ruh6fPb7IpRlrBAK3nB2lWbaDMySBI0lN-Wy0]-->
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+/target/
+*.class
+*.jar
+*.txt
+*.db
+*.zip
+*.db-journal
+*.png
+*.csv
+*.html
+.DS_Store
+.idea
+!src/main/java/DataStructures/graph.txt
+!src/main/resources/map/helsinki_small/**/*.png
+# !src/test/java/Benchmarks/RoutingEngineCorrectness/ApiKey.java
+# src/test/java/Benchmarks/RoutingEngineCorrectness/ApiKey.java
