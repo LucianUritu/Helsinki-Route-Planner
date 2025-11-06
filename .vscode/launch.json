@@ -1,0 +1,112 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "RoutingComparator",
+      "request": "launch",
+      "mainClass": "Benchmarks.RoutingEngineCorrectness.RoutingComparator",
+      "projectName": "bcs1600"
+    },
+    {
+      "type": "java",
+      "name": "DijkstraHeatmap",
+      "request": "launch",
+      "mainClass": "Backend.Algorithms.DijkstraHeatmap",
+      "projectName": "bcs1600"
+    },
+    {
+      "type": "java",
+      "name": "AStarBenchmarking",
+      "request": "launch",
+      "mainClass": "Benchmarks.aStar.AStarBenchmarking",
+      "projectName": "bcs1600"
+    },
+    {
+      "type": "java",
+      "name": "QueryBenchmarking",
+      "request": "launch",
+      "mainClass": "Benchmarks.Query.QueryBenchmarking",
+      "projectName": "bcs1600"
+    },
+    {
+      "type": "java",
+      "name": "QueryBenchmarking",
+      "request": "launch",
+      "mainClass": "Database.Queries.QueryBenchmarking",
+      "projectName": "bcs1600"
+    },
+    {
+      "type": "java",
+      "name": "RoutingEngine",
+      "request": "launch",
+      "mainClass": "Backend.RoutingEngine",
+      "projectName": "bcs1600"
+    },
+    {
+      "type": "java",
+      "name": "AStarBenchmarking",
+      "request": "launch",
+      "mainClass": "AStarBenchmarking",
+      "projectName": "bcs1600"
+    },
+    {
+      "type": "java",
+      "name": "AStarBenchmarking",
+      "request": "launch",
+      "mainClass": "benchmarking.java.AStarBenchmarking",
+      "projectName": "bcs1600"
+    },
+    {
+      "type": "java",
+      "name": "AStar",
+      "request": "launch",
+      "mainClass": "Backend.Algorithms.AStar",
+      "projectName": "bcs1600"
+    },
+    {
+      "type": "java",
+      "name": "MainPage",
+      "request": "launch",
+      "mainClass": "UI.MainPage",
+      "projectName": "bcs1600",
+      "vmArgs": "--module-path \"${env:PATH_TO_FX}\\lib\" --add-modules javafx.controls,javafx.fxml"
+    },
+    {
+      "type": "java",
+      "name": "Application",
+      "request": "launch",
+      "mainClass": "App.Application",
+      "projectName": "bcs1600"
+    },
+    {
+      "type": "java",
+      "name": "Engine",
+      "request": "launch",
+      "mainClass": "Backend.Engine",
+      "projectName": "bcs1600"
+    },
+    {
+      "type": "java",
+      "name": "GtfsLoader",
+      "request": "launch",
+      "mainClass": "Database.GtfsLoader",
+      "projectName": "bcs1600",
+      "vmArgs": "-Xmx16G -Xms512M"
+    },
+    {
+      "type": "java",
+      "name": "RoutingEngine",
+      "request": "launch",
+      "mainClass": "Engine.RoutingEngine",
+      "projectName": "bcs1600",
+      "vmArgs": "-Xmx16G -Xms512M"
+    },
+    {
+      "type": "java",
+      "name": "AStarBenchmarking (benchmarking)",
+      "request": "launch",
+      "mainClass": "Backend.Algorithms.AStarBenchmarking",
+      "projectName": "bcs1600"
+    }
+  ]
+}
